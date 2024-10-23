@@ -1,0 +1,51 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local Window = Library:NewWindow("Name")
+
+local Main = Window:NewSection("My Tab")
+
+Main:CreateButton("Button", function()
+-Your Script (Remove This text)
+print("hello")
+
+end)
+
+Main:CreateTextbox("TextBox", function(text)
+-This is where you can set ur speed or jump height (remove this text)
+        print(text)
+
+end)
+
+Main:CreateDropdown("DropDown", {"Hello", "World", "Hello World"}, 2, function(text)
+-i dont know this (remove this text)
+print(text)
+
+end)
+
+Main:CreateSlider("Slider", 0, 100, 15, false, function(value)
+-also speed and jumps (remove this text)
+print(value)
+
+ end)
+
+Main:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
+-change color (remove this text)
+print(value)
+
+end)
+
+Main:CreateToggle("Toggle", function(value)
+-off and on toggle (remove this text)
+print(value)
+
+end)
+
+
+
+
+Read This!
+
+You can change the "Main" into anything you wanted
+
+If this script wouldn't work inside the game your script that you made 
+might having a error codes, fix the error to continue it.
